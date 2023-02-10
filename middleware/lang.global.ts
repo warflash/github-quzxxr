@@ -6,5 +6,5 @@ export default defineNuxtRouteMiddleware(async (to) => {
     target = `/en/${target}`;
   }
 
-  return target;
+  return navigateTo(target);
 });
